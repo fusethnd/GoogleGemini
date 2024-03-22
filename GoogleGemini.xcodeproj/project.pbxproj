@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97FA3AC2BAD42A100E9B74A /* GoogleGeminiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FA3AB2BAD42A100E9B74A /* GoogleGeminiApp.swift */; };
+		A97FA3AE2BAD42A100E9B74A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FA3AD2BAD42A100E9B74A /* ContentView.swift */; };
+		A97FA3B02BAD42A300E9B74A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97FA3AF2BAD42A300E9B74A /* Assets.xcassets */; };
+		A97FA3B32BAD42A300E9B74A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97FA3B22BAD42A300E9B74A /* Preview Assets.xcassets */; };
+		A97FA3BD2BAD42A300E9B74A /* GoogleGeminiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FA3BC2BAD42A300E9B74A /* GoogleGeminiTests.swift */; };
+		A97FA3C72BAD42A300E9B74A /* GoogleGeminiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FA3C62BAD42A300E9B74A /* GoogleGeminiUITests.swift */; };
+		A97FA3C92BAD42A300E9B74A /* GoogleGeminiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FA3C82BAD42A300E9B74A /* GoogleGeminiUITestsLaunchTests.swift */; };
+		A97FA3DD2BAD47F900E9B74A /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = A97FA3DC2BAD47F900E9B74A /* GoogleGenerativeAI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A97FA3B92BAD42A300E9B74A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97FA3A02BAD42A100E9B74A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97FA3A72BAD42A100E9B74A;
+			remoteInfo = GoogleGemini;
+		};
+		A97FA3C32BAD42A300E9B74A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97FA3A02BAD42A100E9B74A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97FA3A72BAD42A100E9B74A;
+			remoteInfo = GoogleGemini;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A97FA3A82BAD42A100E9B74A /* GoogleGemini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleGemini.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97FA3AB2BAD42A100E9B74A /* GoogleGeminiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleGeminiApp.swift; sourceTree = "<group>"; };
+		A97FA3AD2BAD42A100E9B74A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A97FA3AF2BAD42A300E9B74A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97FA3B22BAD42A300E9B74A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A97FA3B82BAD42A300E9B74A /* GoogleGeminiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleGeminiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97FA3BC2BAD42A300E9B74A /* GoogleGeminiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleGeminiTests.swift; sourceTree = "<group>"; };
+		A97FA3C22BAD42A300E9B74A /* GoogleGeminiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleGeminiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97FA3C62BAD42A300E9B74A /* GoogleGeminiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleGeminiUITests.swift; sourceTree = "<group>"; };
+		A97FA3C82BAD42A300E9B74A /* GoogleGeminiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleGeminiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A97FA3A52BAD42A100E9B74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97FA3DD2BAD47F900E9B74A /* GoogleGenerativeAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97FA3B52BAD42A300E9B74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97FA3BF2BAD42A300E9B74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97FA39F2BAD42A100E9B74A = {
+			isa = PBXGroup;
+			children = (
+				A97FA3AA2BAD42A100E9B74A /* GoogleGemini */,
+				A97FA3BB2BAD42A300E9B74A /* GoogleGeminiTests */,
+				A97FA3C52BAD42A300E9B74A /* GoogleGeminiUITests */,
+				A97FA3A92BAD42A100E9B74A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A97FA3A92BAD42A100E9B74A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97FA3A82BAD42A100E9B74A /* GoogleGemini.app */,
+				A97FA3B82BAD42A300E9B74A /* GoogleGeminiTests.xctest */,
+				A97FA3C22BAD42A300E9B74A /* GoogleGeminiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97FA3AA2BAD42A100E9B74A /* GoogleGemini */ = {
+			isa = PBXGroup;
+			children = (
+				A97FA3AB2BAD42A100E9B74A /* GoogleGeminiApp.swift */,
+				A97FA3AD2BAD42A100E9B74A /* ContentView.swift */,
+				A97FA3AF2BAD42A300E9B74A /* Assets.xcassets */,
+				A97FA3B12BAD42A300E9B74A /* Preview Content */,
+			);
+			path = GoogleGemini;
+			sourceTree = "<group>";
+		};
+		A97FA3B12BAD42A300E9B74A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A97FA3B22BAD42A300E9B74A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A97FA3BB2BAD42A300E9B74A /* GoogleGeminiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A97FA3BC2BAD42A300E9B74A /* GoogleGeminiTests.swift */,
+			);
+			path = GoogleGeminiTests;
+			sourceTree = "<group>";
+		};
+		A97FA3C52BAD42A300E9B74A /* GoogleGeminiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A97FA3C62BAD42A300E9B74A /* GoogleGeminiUITests.swift */,
+				A97FA3C82BAD42A300E9B74A /* GoogleGeminiUITestsLaunchTests.swift */,
+			);
+			path = GoogleGeminiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A97FA3A72BAD42A100E9B74A /* GoogleGemini */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97FA3CC2BAD42A300E9B74A /* Build configuration list for PBXNativeTarget "GoogleGemini" */;
+			buildPhases = (
+				A97FA3A42BAD42A100E9B74A /* Sources */,
+				A97FA3A52BAD42A100E9B74A /* Frameworks */,
+				A97FA3A62BAD42A100E9B74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleGemini;
+			packageProductDependencies = (
+				A97FA3DC2BAD47F900E9B74A /* GoogleGenerativeAI */,
+			);
+			productName = GoogleGemini;
+			productReference = A97FA3A82BAD42A100E9B74A /* GoogleGemini.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A97FA3B72BAD42A300E9B74A /* GoogleGeminiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97FA3CF2BAD42A300E9B74A /* Build configuration list for PBXNativeTarget "GoogleGeminiTests" */;
+			buildPhases = (
+				A97FA3B42BAD42A300E9B74A /* Sources */,
+				A97FA3B52BAD42A300E9B74A /* Frameworks */,
+				A97FA3B62BAD42A300E9B74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97FA3BA2BAD42A300E9B74A /* PBXTargetDependency */,
+			);
+			name = GoogleGeminiTests;
+			productName = GoogleGeminiTests;
+			productReference = A97FA3B82BAD42A300E9B74A /* GoogleGeminiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A97FA3C12BAD42A300E9B74A /* GoogleGeminiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97FA3D22BAD42A300E9B74A /* Build configuration list for PBXNativeTarget "GoogleGeminiUITests" */;
+			buildPhases = (
+				A97FA3BE2BAD42A300E9B74A /* Sources */,
+				A97FA3BF2BAD42A300E9B74A /* Frameworks */,
+				A97FA3C02BAD42A300E9B74A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97FA3C42BAD42A300E9B74A /* PBXTargetDependency */,
+			);
+			name = GoogleGeminiUITests;
+			productName = GoogleGeminiUITests;
+			productReference = A97FA3C22BAD42A300E9B74A /* GoogleGeminiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97FA3A02BAD42A100E9B74A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A97FA3A72BAD42A100E9B74A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					A97FA3B72BAD42A300E9B74A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A97FA3A72BAD42A100E9B74A;
+					};
+					A97FA3C12BAD42A300E9B74A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = A97FA3A72BAD42A100E9B74A;
+					};
+				};
+			};
+			buildConfigurationList = A97FA3A32BAD42A100E9B74A /* Build configuration list for PBXProject "GoogleGemini" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97FA39F2BAD42A100E9B74A;
+			packageReferences = (
+				A97FA3D52BAD42CA00E9B74A /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
+			productRefGroup = A97FA3A92BAD42A100E9B74A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A97FA3A72BAD42A100E9B74A /* GoogleGemini */,
+				A97FA3B72BAD42A300E9B74A /* GoogleGeminiTests */,
+				A97FA3C12BAD42A300E9B74A /* GoogleGeminiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A97FA3A62BAD42A100E9B74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97FA3B32BAD42A300E9B74A /* Preview Assets.xcassets in Resources */,
+				A97FA3B02BAD42A300E9B74A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97FA3B62BAD42A300E9B74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97FA3C02BAD42A300E9B74A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A97FA3A42BAD42A100E9B74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97FA3AE2BAD42A100E9B74A /* ContentView.swift in Sources */,
+				A97FA3AC2BAD42A100E9B74A /* GoogleGeminiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97FA3B42BAD42A300E9B74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97FA3BD2BAD42A300E9B74A /* GoogleGeminiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97FA3BE2BAD42A300E9B74A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97FA3C92BAD42A300E9B74A /* GoogleGeminiUITestsLaunchTests.swift in Sources */,
+				A97FA3C72BAD42A300E9B74A /* GoogleGeminiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A97FA3BA2BAD42A300E9B74A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97FA3A72BAD42A100E9B74A /* GoogleGemini */;
+			targetProxy = A97FA3B92BAD42A300E9B74A /* PBXContainerItemProxy */;
+		};
+		A97FA3C42BAD42A300E9B74A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97FA3A72BAD42A100E9B74A /* GoogleGemini */;
+			targetProxy = A97FA3C32BAD42A300E9B74A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A97FA3CA2BAD42A300E9B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A97FA3CB2BAD42A300E9B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A97FA3CD2BAD42A300E9B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleGemini/Preview Content\"";
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fusethnd.GoogleGemini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A97FA3CE2BAD42A300E9B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoogleGemini/Preview Content\"";
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fusethnd.GoogleGemini;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A97FA3D02BAD42A300E9B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fusethnd.GoogleGeminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleGemini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleGemini";
+			};
+			name = Debug;
+		};
+		A97FA3D12BAD42A300E9B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fusethnd.GoogleGeminiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleGemini.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoogleGemini";
+			};
+			name = Release;
+		};
+		A97FA3D32BAD42A300E9B74A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fusethnd.GoogleGeminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleGemini;
+			};
+			name = Debug;
+		};
+		A97FA3D42BAD42A300E9B74A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8384YBDT96;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fusethnd.GoogleGeminiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleGemini;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A97FA3A32BAD42A100E9B74A /* Build configuration list for PBXProject "GoogleGemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97FA3CA2BAD42A300E9B74A /* Debug */,
+				A97FA3CB2BAD42A300E9B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97FA3CC2BAD42A300E9B74A /* Build configuration list for PBXNativeTarget "GoogleGemini" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97FA3CD2BAD42A300E9B74A /* Debug */,
+				A97FA3CE2BAD42A300E9B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97FA3CF2BAD42A300E9B74A /* Build configuration list for PBXNativeTarget "GoogleGeminiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97FA3D02BAD42A300E9B74A /* Debug */,
+				A97FA3D12BAD42A300E9B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97FA3D22BAD42A300E9B74A /* Build configuration list for PBXNativeTarget "GoogleGeminiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97FA3D32BAD42A300E9B74A /* Debug */,
+				A97FA3D42BAD42A300E9B74A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A97FA3D52BAD42CA00E9B74A /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A97FA3DC2BAD47F900E9B74A /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97FA3D52BAD42CA00E9B74A /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A97FA3A02BAD42A100E9B74A /* Project object */;
+}
