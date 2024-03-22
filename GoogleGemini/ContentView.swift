@@ -10,7 +10,6 @@ import GoogleGenerativeAI
  
 struct ContentView: View {
     let model = GenerativeModel(name: "gemini-pro", apiKey: "AIzaSyCaN2cXEYfnccGdvgBkesZje3lDq-EDgCM")
-     
     @State private var output: String = ""
     @State private var prompt: String = ""
      
